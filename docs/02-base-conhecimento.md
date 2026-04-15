@@ -15,7 +15,7 @@
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Os dados foram adaptados para refletir a realidade do público-alvo, com foco em educação financeira acessível e aplicável ao dia a dia.
+Os dados foram adaptados para refletir a realidade do público-alvo, com foco em educação financeira acessível e aplicável ao dia a dia.
 
 Principais ajustes realizados:
 
@@ -25,7 +25,7 @@ Principais ajustes realizados:
 - Classificação de gastos como essenciais e não essenciais
 - Inclusão de contexto emocional nas interações anteriores
 
-Essas adaptações permitem que o agente vá além de respostas técnicas, oferecendo orientações práticas e humanizadas.]
+Essas adaptações permitem que o agente vá além de respostas técnicas, oferecendo orientações práticas e humanizadas.
 
 ---
 
@@ -34,12 +34,24 @@ Essas adaptações permitem que o agente vá além de respostas técnicas, ofere
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+Os arquivos JSON e CSV são carregados no início da aplicação utilizando Python.
+
+- Arquivos CSV são processados com pandas
+- Arquivos JSON são carregados como dicionários
+
+Os dados ficam disponíveis em memória para consultas durante toda a interação.
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+Os dados são utilizados de forma dinâmica, conforme a necessidade da interação:
+
+- Perfil do usuário → incluído no contexto base (system prompt)
+- Transações → analisadas para gerar insights personalizados
+- Produtos financeiros → consultados para explicações educativas
+- Histórico → utilizado para manter continuidade da conversa
+
+O agente não recebe todos os dados de uma vez, mas sim apenas o contexto relevante para cada pergunta, evitando excesso de informação e melhorando a precisão das respostas.
 
 ---
 
@@ -47,14 +59,23 @@ Essas adaptações permitem que o agente vá além de respostas técnicas, ofere
 
 > Mostre um exemplo de como os dados são formatados para o agente.
 
-```
-Dados do Cliente:
-- Nome: João Silva
-- Perfil: Moderado
-- Saldo disponível: R$ 5.000
+Dados da Usuária:
+- Nome: Maria
+- Perfil: Em organização financeira
+- Renda mensal: R$ 2.200
+
+Resumo do comportamento:
+- Dificuldade em controlar gastos
+- Não possui reserva de emergência
 
 Últimas transações:
-- 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
-...
-```
+- 02/10: Supermercado - R$ 320
+- 05/10: Delivery - R$ 85
+- 10/10: Transporte - R$ 120
+
+Histórico recente:
+- Já buscou entender Tesouro Selic
+- Demonstrou interesse em criar reserva financeira
+
+Instrução para o agente:
+Responder de forma simples, sem termos técnicos, priorizando sugestões práticas e acessíveis. Evitar recomendações complexas e focar em pequenas ações que ajudem na organização financeira.
