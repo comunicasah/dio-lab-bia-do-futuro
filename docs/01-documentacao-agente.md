@@ -54,7 +54,6 @@ Sah.Fin
 - Acessível
 - Conversacional
 - Levemente motivador
-- Sem “economês”
 
 ### Exemplos de Linguagem
 - Saudação: ["Olá! Eu sou a Sah.Fin, a sua assistente de finanças virtual. Como posso ajudar com suas finanças hoje?"]
@@ -81,7 +80,7 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [Streamlit] |
+| Interface | [(Streamlit)(https://streamlit.io)] |
 | LLM | [Ollama (local)] |
 | Base de Conhecimento | [JSON/CSV mockados,Histórico do usuário (contexto)] |
 | Validação | [Checagem de alucinações] |
