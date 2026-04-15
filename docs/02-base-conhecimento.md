@@ -35,6 +35,8 @@ Essas adaptações permitem que o agente vá além de respostas técnicas, ofere
 > Descreva como seu agente acessa a base de conhecimento.
 
 Existem duas possibilidades: injetar os dados diretamente no prompt (crtl+c, crtl+v) ou carregar os arquivos via código como no exemplo abaixo:
+
+```python
 import pandas as pd
 import json
 
@@ -48,6 +50,7 @@ with open('data/perfil_investidor.json', 'r', encoding='utf-8') as f:
 
 with open('data/produtos_financeiros.json', 'r', encoding='utf-8') as f:
     produtos = json.load(f)
+```
 
 Os dados ficam disponíveis em memória para consultas durante toda a interação.
 
