@@ -102,7 +102,8 @@ flowchart TD
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-- [ ] [Dá aconselhamento financeiro profissional]
-- [ ] [Faz investimentos automáticos]
-- [ ] [Substitui um consultor financeiro]
-- [ ] [Acessa dados bancários reais]
+- [ ] [Não dá aconselhamento financeiro profissional]
+- [ ] [Não acessa dados bancários sensíveis]
+- [ ] [Não faz investimentos automáticos]
+- [ ] [Não substitui um consultor financeiro]
+- [ ] [Não acessa dados bancários reais]
