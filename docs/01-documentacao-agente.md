@@ -81,10 +81,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente,Histórico do usuário (contexto)] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | [Streamlit] |
+| LLM | [Ollama (local)] |
+| Base de Conhecimento | [JSON/CSV mockados,Histórico do usuário (contexto)] |
+| Validação | [Checagem de alucinações] |
 
 ---
 
