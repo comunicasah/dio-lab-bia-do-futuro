@@ -1,42 +1,47 @@
 [
   {
     "nome": "Tesouro Selic",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "100% da Selic",
+    "categoria": "seguranca",
+    "nivel_risco": "baixo",
+    "explicacao_simples": "É como guardar dinheiro com segurança e ver ele crescer aos poucos, podendo retirar quando precisar.",
     "aporte_minimo": 30.00,
-    "indicado_para": "Reserva de emergência e iniciantes"
+    "indicado_para": "Quem quer começar uma reserva de emergência",
+    "ideal_para_perfil": ["iniciante", "em organização"]
   },
   {
-    "nome": "CDB Liquidez Diária",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "102% do CDI",
+    "nome": "CDB com liquidez diária",
+    "categoria": "seguranca",
+    "nivel_risco": "baixo",
+    "explicacao_simples": "Funciona como um dinheiro guardado que rende um pouquinho todos os dias e pode ser retirado a qualquer momento.",
     "aporte_minimo": 100.00,
-    "indicado_para": "Quem busca segurança com rendimento diário"
+    "indicado_para": "Quem quer segurança e acesso rápido ao dinheiro",
+    "ideal_para_perfil": ["iniciante", "em organização"]
   },
   {
     "nome": "LCI/LCA",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "95% do CDI",
+    "categoria": "planejamento",
+    "nivel_risco": "baixo",
+    "explicacao_simples": "Um tipo de investimento que rende sem desconto de imposto, mas precisa deixar o dinheiro parado por um tempo.",
     "aporte_minimo": 1000.00,
-    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
+    "indicado_para": "Quem consegue guardar dinheiro sem mexer por alguns meses",
+    "ideal_para_perfil": ["organizado"]
   },
   {
     "nome": "Fundo Multimercado",
-    "categoria": "fundo",
-    "risco": "medio",
-    "rentabilidade": "CDI + 2%",
+    "categoria": "crescimento",
+    "nivel_risco": "medio",
+    "explicacao_simples": "Um investimento que mistura várias estratégias, podendo render mais, mas com algumas oscilações.",
     "aporte_minimo": 500.00,
-    "indicado_para": "Perfil moderado que busca diversificação"
+    "indicado_para": "Quem já tem uma reserva e quer diversificar",
+    "ideal_para_perfil": ["organizado", "em evolução"]
   },
   {
     "nome": "Fundo de Ações",
-    "categoria": "fundo",
-    "risco": "alto",
-    "rentabilidade": "Variável",
+    "categoria": "crescimento",
+    "nivel_risco": "alto",
+    "explicacao_simples": "Investimento com maior chance de ganho, mas que também pode variar bastante ao longo do tempo.",
     "aporte_minimo": 100.00,
-    "indicado_para": "Perfil arrojado com foco no longo prazo"
+    "indicado_para": "Quem pensa no longo prazo e aceita oscilações",
+    "ideal_para_perfil": ["avancado"]
   }
 ]
