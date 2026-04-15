@@ -2,17 +2,12 @@
 
 ## Dados Utilizados
 
-Descreva se usou os arquivos da pasta `data`, por exemplo:
-
-| Arquivo | Formato | Utilização no Agente |
+| Arquivo | Formato | Para que serve na Sah.fin? |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
-
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+| `historico_atendimento.csv` | CSV | Manter contexto das interações anteriores e evolução da usuária |
+| `perfil_investidor.json` | JSON | Personalizar respostas com base no momento financeiro e desafios reais |
+| `produtos_financeiros.json` | JSON | Explicar opções financeiras de forma simples e adequada ao perfil |
+| `transacoes.csv` | CSV | Identificar padrões de gastos e sugerir melhorias práticas |
 
 ---
 
@@ -20,7 +15,17 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+[Os dados foram adaptados para refletir a realidade do público-alvo, com foco em educação financeira acessível e aplicável ao dia a dia.
+
+Principais ajustes realizados:
+
+- Simplificação do perfil financeiro (ex: “em organização” ao invés de “moderado”)
+- Inclusão de comportamentos e desafios financeiros reais
+- Adaptação da linguagem dos produtos financeiros para explicações simples
+- Classificação de gastos como essenciais e não essenciais
+- Inclusão de contexto emocional nas interações anteriores
+
+Essas adaptações permitem que o agente vá além de respostas técnicas, oferecendo orientações práticas e humanizadas.]
 
 ---
 
