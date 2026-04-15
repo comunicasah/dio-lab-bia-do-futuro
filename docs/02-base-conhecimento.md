@@ -34,10 +34,20 @@ Essas adaptações permitem que o agente vá além de respostas técnicas, ofere
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-Os arquivos JSON e CSV são carregados no início da aplicação utilizando Python.
+Existem duas possibilidades: injetar os dados diretamente no prompt (crtl+c, crtl+v) ou carregar os arquivos via código como no exemplo abaixo:
+import pandas as pd
+import json
 
-- Arquivos CSV são processados com pandas
-- Arquivos JSON são carregados como dicionários
+# CSVs
+historico = pd.read_csv('data/historico_atendimento.csv')
+transacoes = pd.read_csv('data/transacoes.csv')
+
+# JSONs
+with open('data/perfil_investidor.json', 'r', encoding='utf-8') as f:
+    perfil = json.load(f)
+
+with open('data/produtos_financeiros.json', 'r', encoding='utf-8') as f:
+    produtos = json.load(f)
 
 Os dados ficam disponíveis em memória para consultas durante toda a interação.
 
