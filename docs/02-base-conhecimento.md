@@ -189,6 +189,7 @@ Instrução para o agente:
 Responder de forma simples, sem termos técnicos, priorizando sugestões práticas e acessíveis. Evitar recomendações complexas e focar em pequenas ações que ajudem na organização financeira.
 
 ## Exemplo de Contexto Montado
+O modelo abaixo, utiliza a fonte de dados originais, mas sintetiza deixando apenas as informações de maior relevância, otimizando assim o consumo de tokens, vale lembrar que mais importante do que economizar tokens, é ter todas as informações relevantes disponíveis em seu contexto.
 
 Contexto do Cliente
 
