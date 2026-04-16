@@ -151,7 +151,7 @@ Onde devo investir?
 
 **Agente:**
 ```
-Antes de te indicar algo, preciso entender melhor sua realidade, 
+Antes de te indicar algo, preciso entender melhor sua realidade.
 Responda algumas perguntas para que eu possa descobrir o seu perfil como investidor e te orientar para o melhor caminho.
 ```
 
