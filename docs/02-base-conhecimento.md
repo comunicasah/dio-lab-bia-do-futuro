@@ -126,14 +126,16 @@ data,descricao,categoria,valor,tipo,essencial
 ```
 
 Histórico de Atendimento (historico_atendimento.csv):
-data,canal,tema,resumo,resolvido,emocao,proximo_passo
+```data,canal,tema,resumo,resolvido,emocao,proximo_passo
 2025-09-15,chat,CDB,Cliente quis entender como o dinheiro rende,sim,duvida,Explicar com exemplo simples
 2025-09-22,telefone,Problema no app,Erro ao acessar extrato resolvido,sim,frustracao,Verificar se voltou a usar normalmente
 2025-10-01,chat,Tesouro Selic,Cliente pediu explicação básica,sim,curiosidade,Sugerir como iniciar com valor baixo
 2025-10-12,chat,Metas financeiras,Cliente acompanhou reserva de emergência,sim,motivacao,Incentivar continuidade
 2025-10-25,email,Atualização cadastral,Atualizou dados pessoais,sim,neutro,Sem ação necessária
+```
 
 Produtos Financeiros (produtos_financeiros.json) :
+```
 [
   {
     "nome": "Tesouro Selic",
@@ -181,7 +183,7 @@ Produtos Financeiros (produtos_financeiros.json) :
     "ideal_para_perfil": ["avancado"]
   }
 ]
-
+```
 
 Instrução para o agente:
 Responder de forma simples, sem termos técnicos, priorizando sugestões práticas e acessíveis. Evitar recomendações complexas e focar em pequenas ações que ajudem na organização financeira.
