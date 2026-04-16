@@ -192,22 +192,22 @@ Responder de forma simples, sem termos técnicos, priorizando sugestões prátic
 
 Contexto do Cliente
 
-Nome: Maria Soares
-Perfil: em construção
-Objetivo: Construir reserva de emergência
-Reserva atual: R$ 500 (meta: R$ 6.000)
+- Nome: Maria Soares
+- Perfil: em construção
+- Objetivo: Construir reserva de emergência
+- Reserva atual: R$ 500 (meta: R$ 6.000)
 
 Resumo de Gastos
-Moradia: R$ 1.380
-Alimentação: R$ 570
-Transporte: R$ 295
-Saúde: R$ 188
-Lazer: R$ 154,90
-Total: R$ 2.488,90
+- Moradia: R$ 1.380
+- Alimentação: R$ 570
+- Transporte: R$ 295
+- Saúde: R$ 188
+- Lazer: R$ 154,90
+- Total: R$ 2.488,90
 
 Produtos Disponíveis
-Tesouro Selic (baixo risco)
-CDB com liquidez diária (baixo risco)
-LCI/LCA (baixo risco)
-Fundo Multimercado (médio risco)
-Fundo de Ações (alto risco)
+- Tesouro Selic (baixo risco)
+- CDB com liquidez diária (baixo risco)
+- LCI/LCA (baixo risco)
+- Fundo Multimercado (médio risco)
+- Fundo de Ações (alto risco)
