@@ -55,7 +55,10 @@ Agente:
 ```
 [Contexto: uso da base de conhecimento]
 
-EXEMPLOS DE PERGUNTAS: (Few Shot Prompt)('https://hub.asimov.academy/tutorial/zero-one-e-few-shot-prompts-entendendo-os-conceitos-basicos/')
+EXEMPLOS DE PERGUNTAS: ()
+
+Mais sobre (Few Shot Prompt)('https://hub.asimov.academy/tutorial/zero-one-e-few-shot-prompts-entendendo-os-conceitos-basicos/')
+
 ---
 
 ## Exemplos de Interação
