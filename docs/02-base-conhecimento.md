@@ -69,7 +69,7 @@ O agente não recebe todos os dados de uma vez, mas sim apenas o contexto releva
 
 ---
 
-## Exemplo de Contexto Montado
+## Contexto Montado
 
 > Mostre um exemplo de como os dados são formatados para o agente.
 ```text
@@ -187,3 +187,27 @@ Produtos Financeiros (produtos_financeiros.json) :
 
 Instrução para o agente:
 Responder de forma simples, sem termos técnicos, priorizando sugestões práticas e acessíveis. Evitar recomendações complexas e focar em pequenas ações que ajudem na organização financeira.
+
+## Exemplo de Contexto Montado
+
+Contexto do Cliente
+
+Nome: Maria Soares
+Perfil: em construção
+Objetivo: Construir reserva de emergência
+Reserva atual: R$ 500 (meta: R$ 6.000)
+
+Resumo de Gastos
+Moradia: R$ 1.380
+Alimentação: R$ 570
+Transporte: R$ 295
+Saúde: R$ 188
+Lazer: R$ 154,90
+Total: R$ 2.488,90
+
+Produtos Disponíveis
+Tesouro Selic (baixo risco)
+CDB com liquidez diária (baixo risco)
+LCI/LCA (baixo risco)
+Fundo Multimercado (médio risco)
+Fundo de Ações (alto risco)
