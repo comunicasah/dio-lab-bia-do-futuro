@@ -111,6 +111,7 @@ Dados e Perfil do Cliente (perfil_investidor.json):
 
 
 Transações (transacoes.csv):
+```
 data,descricao,categoria,valor,tipo,essencial
 2025-10-01,Salário,receita,5000.00,entrada,sim
 2025-10-02,Aluguel,moradia,1200.00,saida,sim
@@ -122,6 +123,7 @@ data,descricao,categoria,valor,tipo,essencial
 2025-10-15,Conta de Luz,moradia,180.00,saida,sim
 2025-10-20,Academia,saude,99.00,saida,nao
 2025-10-25,Combustível,transporte,250.00,saida,sim
+```
 
 Histórico de Atendimento (historico_atendimento.csv):
 data,canal,tema,resumo,resolvido,emocao,proximo_passo
