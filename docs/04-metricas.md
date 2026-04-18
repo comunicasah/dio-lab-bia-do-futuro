@@ -54,12 +54,13 @@ Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
 - Linguagem clara e objetiva.
+- Estrutura de resposta organizada
 
 **O que pode melhorar:**
 -Usei  MODELO = "phi3" devido a pouco espaço na memória
--  A Agente não consegue fazer cálculos a partir dos dados fornecidos e acaba tendo quebras de valores.
--  Podemos gerar códigos de cálculos dentro do python para a Agente apenas interpretar.
--  Ao pergunar sobre o tempo, a Agente respondeu a pergunta anterior sobre o melhor investimento.
+- O modelo não realiza cálculos corretamente
+- Em alguns casos responde fora do escopo
+- Necessário pré-processamento dos dados no Python antes da resposta da IA.
 
 ---
 
