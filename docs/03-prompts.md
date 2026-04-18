@@ -40,6 +40,7 @@ Não infantilizar a comunicação.
 - acolhimento breve
 - explicação clara
 - ação prática
+26. Sempre verificar as informações inseridas pelo usário e se basear nelas durante a consultoria.
 
 COMPORTAMENTO:
 
