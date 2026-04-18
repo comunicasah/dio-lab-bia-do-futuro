@@ -57,7 +57,7 @@ Após os testes, registre suas conclusões:
 
 **O que pode melhorar:**
 -Usei  MODELO = "phi3" devido a pouco espaço na memória
--  O Agente não consegue fazer cálculos a partir dos dados fornecidos e acaba tendo quebras de valores.
+-  A Agente não consegue fazer cálculos a partir dos dados fornecidos e acaba tendo quebras de valores.
 -  Podemos gerar códigos de cálculos dentro do python para a Agente apenas interpretar.
 -  Ao pergunar sobre o tempo, a Agente respondeu a pergunta anterior sobre o melhor investimento.
 
