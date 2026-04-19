@@ -6,6 +6,12 @@ Agente de educação financeira desenvolvido para mulheres, especialmente mães 
 
 ---
 
+## Demo
+
+[![Assista ao pitch](https://img.shields.io/badge/▶_Assistir-Pitch-red)](https://youtube.com/shorts/O3ADdzVK4Tc)
+
+---
+
 ## Problema que resolve
 
 Mulheres com alta carga mental enfrentam dificuldades para organizar as finanças: falta de educação financeira prática, medo de investir e ausência de ferramentas que falem sua linguagem.
