@@ -20,6 +20,7 @@ Stack
 ComponenteTecnologiaInterfaceStreamlitLLMOllama (phi3, local)Base de conhecimentoJSON + CSV mockados
 
 Estrutura do Repositório
+"""
 📁 lab-agente-financeiro/
 │
 ├── 📄 README.md
@@ -37,6 +38,7 @@ Estrutura do Repositório
 │
 └── 📁 src/
     └── app.py
+    """
 
 Como rodar
 bash# Instale as dependências
